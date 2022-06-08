@@ -2,7 +2,6 @@ const express = require("express");
 const app = express()
 const cors = require("cors");
 const PORT = 8000
-const input = require("./js/main.js")
 
 app.use(cors())
 
